@@ -94,7 +94,7 @@
                 },
                 {
                     "id": 5,
-                    "src": "assets/images/gallery/pic2.jpg",
+                    "src": "assets/images/gallery/wall1.png",
                     "alt": "pic",
                     "caption": "Lorem Ipsum"
                 },
@@ -112,7 +112,7 @@
                 },
                 {
                     "id": 8,
-                    "src": "assets/images/gallery/pic4.jpg",
+                    "src": "assets/images/gallery/wall2.png",
                     "alt": "pic",
                     "caption": "Lorem Ipsum"
                 },
@@ -124,7 +124,7 @@
                 },
                 {
                     "id": 10,
-                    "src": "assets/images/gallery/pic.jpg",
+                    "src": "assets/images/gallery/wall3.png",
                     "alt": "pic",
                     "caption": "Lorem Ipsum"
                 }
