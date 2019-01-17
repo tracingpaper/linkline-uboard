@@ -1,10 +1,10 @@
 {
     "app": {
-        "title": "U-Board",
+        "title": "Hover Board",
         "details": {
-            "company": "Company Name",
+            "company": "LinkLine",
             "companyUrl": "#",
-            "address": "Company Name Pvt. Ltd. <br> 3033 Aaron Smith Drive, Lititz, PA <br> Pennsylvania - 17543",
+            "address": "LinkLine Pvt. Ltd. <br> 2<sup>nd</sup> Cross Tavarekere Main Road<br> Opposite Forum Mall, Bhuvanappa Layout <br> Karamangala, Bengaluru, Karnataka - 560029",
             "email": "example@gmail.com",
             "website": "www.example.com"
         },
