@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+            <h4 class="subtitle py-3">Main Office</h4>
+            <div class="details ml-4 mt-4">
+                <div class="detail-item address my-3">
+                    <i class="fa fa-building text-primary"></i>
+                    <span class="text">{{app.details.address | safe}}</span>
+                </div>
+                <div class="detail-item email my-3">
+                    <i class="fa fa-envelope text-primary"></i>
+                    <span class="text">{{app.details.email | safe}}</span>
+                </div>
+                <div class="detail-item email my-3">
+                    <i class="fa fa-globe-asia text-primary"></i>
+                    <span class="text">{{app.details.website | safe}}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <h4 class="subtitle py-3">Stay Updated</h4>
+            <form action="{{forms.newsletter.action}}" method="{{forms.newsletter.method}}" class="newsletter-form ml-4 mt-4">
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <button class="btn btn-primary text-uppercase font-weight-bold px-3 wow tada">
+                    Subscribe
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

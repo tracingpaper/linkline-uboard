@@ -1,6 +1,18 @@
 {
     "app": {
-        "title": "U-Board"
+        "title": "U-Board",
+        "details": {
+            "company": "Company Name",
+            "companyUrl": "#",
+            "address": "Company Name Pvt. Ltd. <br> 3033 Aaron Smith Drive, Lititz, PA <br> Pennsylvania - 17543",
+            "email": "example@gmail.com",
+            "website": "www.example.com"
+        },
+        "social": {
+            "facebook": "#",
+            "twitter": "#",
+            "instagram": "#"
+        }
     },
     "content": {
         "hero":{
@@ -122,6 +134,20 @@
                     "photo": "./assets/images/faces/face22.jpg"
                 }
             ]
+        }
+    },
+    "forms": {
+        "login": {
+            "action": "#",
+            "method": "post"
+        },
+        "newsletter": {
+            "action": "#",
+            "method": "post"
+        },
+        "contact": {
+            "action": "#",
+            "method": "post"
         }
     }
 }

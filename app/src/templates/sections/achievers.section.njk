@@ -6,11 +6,11 @@
     <div class="row justify-content-center">
 
         {% for achiever in content.achievers.achievers %}
-            <div class="col-md-4 p-5">
-                <img src="{{achiever.photo}}" alt="{{achiever.name}}" class="achiever-img img-fluid rounded-circle">
-                <div class="achiever-details text-center pt-4">
-                    <div class="font-weight-bold achiever-name">{{achiever.name}}</div>
-                    <div class="text-muted achiever-place">{{achiever.place}}</div>
+            <div class="col-6 col-md-4 p-3 p-md-5">
+                <img src="{{achiever.photo}}" alt="{{achiever.name}}" class="achiever-img img-fluid rounded-circle wow zoomIn">
+                <div class="achiever-details text-center pt-2 pt-md-4">
+                    <div class="font-weight-bold achiever-name wow fadeInUp">{{achiever.name}}</div>
+                    <div class="text-muted achiever-place wow fadeInUp" data-wow-delay="200ms">{{achiever.place}}</div>
                 </div>
             </div>
         {% endfor %}

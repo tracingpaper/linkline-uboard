@@ -26,4 +26,29 @@
         {% include "sections/contact.section.njk" %}
     </div>
     
+    <footer id="footer" class="container-fluid footer py-5">
+        {% include "partials/footer.partial.njk" %}
+    </footer>
+
+    <div class="copyright container-fluid p-4">
+        <div class="row justify-content-space-between align-items-center">
+            <div class="col text-left">
+                Copyright &copy; 2019 <a href="{{app.details.companyUrl}}">{{app.details.company}}</a>. All rights reserved
+            </div>
+            <div class="col text-center">
+                <a href="{{app.social.facebook}}" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="{{app.social.twitter}}" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="{{app.social.instagram}}" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="col text-right">
+                Hand-crafted &amp; made with <i class="fa fa-heart text-danger"></i>
+            </div>
+        </div>
+    </div>
 {% endblock %}

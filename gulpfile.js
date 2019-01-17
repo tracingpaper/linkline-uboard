@@ -2,7 +2,7 @@ const gulp = require("gulp");
 const njkRender = require("gulp-nunjucks-render");
 const data = require("gulp-data");
 const gutil = require("gulp-util");
-// const connect = require("gulp-connect");
+const connect = require("gulp-connect");
 const sass = require("gulp-sass");
 const concat = require('gulp-concat');
 
@@ -28,6 +28,8 @@ gulp.task("nunjucks", function() {
         }))
         //out to dist
         .pipe(gulp.dest('app/dist'))
+        //livereload
+        .pipe(connect.reload())
     );
 });
 
@@ -42,6 +44,8 @@ gulp.task("sass-compile", function () {
         .pipe(sass({style:'compressed'}).on('error', sass.logError))
         //output to dist/css
         .pipe(gulp.dest("app/dist/css"))
+        //livereload
+        .pipe(connect.reload())
     );
 
 });
@@ -57,11 +61,18 @@ gulp.task("js-concat", function () {
         .pipe(concat('main.js'))
         //out to dist/js
         .pipe(gulp.dest('app/dist/js'))
+        //livereload
+        .pipe(connect.reload())
     );
 });
 
 //Watch Changes
 gulp.task('watch', function () {
+    connect.server({
+        port: 4000,
+        root: 'app/dist',
+        livereload: true
+    });
     gulp.watch('app/src/**/*.+(html|nunjucks|njk)', gulp.series('nunjucks'));
     gulp.watch("app/src/scss/**/*.scss", gulp.series('sass-compile'));
     gulp.watch("app/src/scripts/**/*.js", gulp.series('js-concat'));
@@ -69,4 +80,3 @@ gulp.task('watch', function () {
 
 //Build
 gulp.task('build', gulp.series('nunjucks', 'sass-compile', 'js-concat'));
-

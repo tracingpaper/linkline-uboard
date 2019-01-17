@@ -1,3 +1,7 @@
+body {
+    scroll-behavior: smooth;
+}
+
 .doodle-bg-1 {
     background-image: url("../assets//images/doodle-background.png");
     background-size: 50%;
@@ -24,6 +28,11 @@
 .navbar {
 
     height: 80px;
+    transition-duration: 0.3s;
+
+    &.fixed-top {
+        animation: fadeInDown 0.3s;
+    }
 
     .navbar-nav .nav-item {
         color: map-get($colors, gray);
@@ -155,10 +164,68 @@
 
 // CONTACT
 
-.section-contact {
+.section-achievers{
     background: $white;
+}
 
-    .contact-form {
+// FOOTER
 
+#footer {
+    background: $footer-bg;
+    color: $footer-color;
+
+    .subtitle {
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+            width: 75px;
+            height: 3px;
+            background: map-get($theme-colors, primary);
+            position: absolute;
+            left: 0;
+            top: 100%;
+        }
+    }
+
+    .details {
+
+        .detail-item {
+            
+            display: flex;
+            align-items: center;
+
+            .fa {
+                margin-right: 12px;
+                width: 24px;
+            }
+
+            .text {
+                padding-left: 12px;
+                border-left: 1px dashed darken($footer-bg, 10%)
+            }
+        }
+    }
+}
+
+// COPYRIGHT
+
+.copyright {
+    background: #3F3F3F;
+    color: map-get($colors, gray-light);
+    font-size: 0.8rem;
+    font-weight: 500;
+
+    a.social-link {
+        color: map-get($colors, gray);
+        font-size: 1.3rem;
+        padding: 0 2rem;
+
+        &:hover {
+            color: $brand-primary;
+        }
     }
 }

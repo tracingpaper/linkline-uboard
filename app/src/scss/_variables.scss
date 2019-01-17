@@ -14,13 +14,14 @@ $white: #ffffff;
 $white-smoke: #f4f4f4;
 $ghost-white: #f7fafc;
 $violet: #41478a;
+$brand-primary: #E5334E;
 $theme-colors: ( primary: #E5334E, secondary: #FFCCD8, success: #8BC34A, info: #00BCD4, warning: #ffaf00, danger: #e65251, light: #f3f5f6, dark: #333333);
 $colors: ( blue: $blue, indigo: $indigo, purple: $purple, pink: $pink, red: $red, orange: $orange, yellow: $yellow, green: $green, teal: $teal, cyan: $cyan, white: $white, white-smoke: #f3f5f6, gray: #666666, gray-light: #999999, gray-lightest: #F9F9F9, gray-dark: #292b2c);
 
 //////// THEME FONTS ////////
 $content-bg: #F9F9F9;
-$footer-bg: $content-bg;
-$footer-color: color(dark);
+$footer-bg: map-get($theme-colors, dark);
+$footer-color: $white;
 $border-color: #f2f2f2;
 
 //// OVERRIDE ////
@@ -47,3 +48,11 @@ $navbar-height: 80px;
 
 $input-border: $border-color;
 $input-color-placeholder: #b3b3b3;
+$input-border-focus: map-get($theme-colors, secondary);
+
+/// LINK
+$link-color:            $brand-primary;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      lighten($link-color, 10%);
+//** Link hover decoration.
+$link-hover-decoration: none;
