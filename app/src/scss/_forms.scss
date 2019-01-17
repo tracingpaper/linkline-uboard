@@ -1,11 +1,25 @@
-form .form-control {
-    border: 1px solid $border-color;
-    &::placeholder {
-        color: $input-color-placeholder;
+form {
+
+    .form-control {
+        border: 1px solid $border-color;
+        &::placeholder {
+            color: $input-color-placeholder;
+        }
+    
+        &:focus {
+            border-color: $input-border-focus;
+            box-shadow: 0 0 0 0.2rem transparentize($input-border-focus, 0.9);
+        }
     }
 
-    &:focus {
-        border-color: $input-border-focus;
-        box-shadow: 0 0 0 0.2rem transparentize($input-border-focus, 0.9);
+}
+
+.input-group {
+
+    .input-group-prepend, .input-group-append {
+        .input-group-text {
+            background: $white;
+            border-color: $border-color;
+        }
     }
 }

@@ -1,10 +1,10 @@
 <div class="container">
-    <div class="text-center">
+    <div class="text-center" uk-parallax="opacity:0,1; y:120,0;viewport:0.3">
         <h2 class="section-title">Company</h2>
         <div class="section-title-underline"></div>
     </div>
 
-    <p class="lead company-text font-weight-medium text-muted text-center p-4">
+    <p class="lead company-text font-weight-medium text-muted text-center p-4" uk-parallax="opacity:0,1; y:120,0;viewport:0.3">
         {{content.company.text}}
     </p>
 </div>
@@ -12,8 +12,8 @@
 <div class="row">
 
     {% for feature in content.company.features %}
-        <div class="feature f-{{feature.id}} col-md-4">
-            <div class="card border-light wow flipInY" data-wow-delay="{{feature.id*100}}ms">
+        <div class="feature f-{{feature.id}} col-md-4" data-aos="fade-up" data-aos-delay="{{(feature.id - 1)*100}}">
+            <div class="card border-light" >
                 <div class="card-body">
                     <div class="feature-icon"><i class="fa {{feature.icon}}"></i></div>
                     <h4 class="feature-title">{{feature.title}}</h4>

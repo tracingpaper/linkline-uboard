@@ -1,5 +1,13 @@
 body {
     scroll-behavior: smooth;
+
+    &.navbar-fixed {
+        
+        #Hero {
+            box-sizing: border-box;
+            padding-top: 80px;
+        }
+    }
 }
 
 .doodle-bg-1 {
@@ -21,17 +29,24 @@ body {
     width: 100%;
 }
 
-.vh-100 {
-    height: 100vh;
+#Hero {
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+        height: 100vh;
+    }
 }
 
 .navbar {
 
     height: 80px;
     transition-duration: 0.3s;
+    z-index:1;
 
-    &.fixed-top {
+    &.dropTop {
         animation: fadeInDown 0.3s;
+    }
+
+    &.hidden {
+        display: none;
     }
 
     .navbar-nav .nav-item {
@@ -158,7 +173,10 @@ body {
     }
 
     .achiever-name {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        @media screen and (min-width: map-get($grid-breakpoints, md)) {
+            font-size: 1.2rem;
+        }
     }
 }
 
@@ -226,6 +244,29 @@ body {
 
         &:hover {
             color: $brand-primary;
+        }
+    }
+}
+
+//LOGIN FORM
+#login-modal {
+
+    .uk-modal-dialog {
+        border-radius: $border-radius !important;
+    }
+
+    #loginForm {
+        .login-input {
+
+            border: 1px solid $border-color;
+            border-radius: $border-radius;
+
+            .form-control, .input-group-append .input-group-text { border: none ; box-shadow: none; }
+
+            .input-group-append .input-group-text {
+                color: color(gray-light);
+            }
+
         }
     }
 }

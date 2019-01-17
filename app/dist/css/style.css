@@ -7019,8 +7019,15 @@ form .form-control {
     border-color: #FFCCD8;
     box-shadow: 0 0 0 0.2rem rgba(255, 204, 216, 0.1); }
 
+.input-group .input-group-prepend .input-group-text, .input-group .input-group-append .input-group-text {
+  background: #ffffff;
+  border-color: #f2f2f2; }
+
 body {
   scroll-behavior: smooth; }
+  body.navbar-fixed #Hero {
+    box-sizing: border-box;
+    padding-top: 80px; }
 
 .doodle-bg-1 {
   background-image: url("../assets//images/doodle-background.png");
@@ -7038,14 +7045,18 @@ body {
   background-size: 100%;
   width: 100%; }
 
-.vh-100 {
-  height: 100vh; }
+@media screen and (min-width: 768px) {
+  #Hero {
+    height: 100vh; } }
 
 .navbar {
   height: 80px;
-  transition-duration: 0.3s; }
-  .navbar.fixed-top {
+  transition-duration: 0.3s;
+  z-index: 1; }
+  .navbar.dropTop {
     animation: fadeInDown 0.3s; }
+  .navbar.hidden {
+    display: none; }
   .navbar .navbar-nav .nav-item {
     color: #666666;
     font-weight: 500;
@@ -7125,7 +7136,10 @@ body {
   width: 100%; }
 
 .section-achievers .achiever-name {
-  font-size: 1.2rem; }
+  font-size: 1rem; }
+  @media screen and (min-width: 768px) {
+    .section-achievers .achiever-name {
+      font-size: 1.2rem; } }
 
 .section-achievers {
   background: #ffffff; }
@@ -7167,3 +7181,15 @@ body {
     padding: 0 2rem; }
     .copyright a.social-link:hover {
       color: #E5334E; }
+
+#login-modal .uk-modal-dialog {
+  border-radius: 0.25rem !important; }
+
+#login-modal #loginForm .login-input {
+  border: 1px solid #f2f2f2;
+  border-radius: 0.25rem; }
+  #login-modal #loginForm .login-input .form-control, #login-modal #loginForm .login-input .input-group-append .input-group-text {
+    border: none;
+    box-shadow: none; }
+  #login-modal #loginForm .login-input .input-group-append .input-group-text {
+    color: #999999; }

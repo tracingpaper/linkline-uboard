@@ -24,6 +24,25 @@
                 "link": "#"
             }
         },
+        "slider": {
+            "slides": [
+                {
+                    "id": 1,
+                    "src": "assets/images/slider/wall1.png",
+                    "alt": "Wall 1"
+                },
+                {
+                    "id": 2,
+                    "src": "assets/images/slider/wall2.png",
+                    "alt": "Wall 2"
+                },
+                {
+                    "id": 3,
+                    "src": "assets/images/slider/wall3.png",
+                    "alt": "Wall 3"
+                }
+            ]
+        },
         "company": {
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dignissimos veritatis? Quo illum hic error at. Quisquam accusamus repudiandae nihil maxime iusto, alias porro est!",
             "features": [
@@ -52,52 +71,62 @@
                 {
                     "id": 1,
                     "src": "assets/images/gallery/pic5.jpg",
-                    "alt": "pic"
+                    "alt": "pic",
+                    "caption": "Lorem Ipsum"
                 },
                 {
                     "id": 2,
                     "src": "assets/images/gallery/pic3.jpg",
-                    "alt": "pic"
+                    "alt": "pic",
+                    "caption": "Lorem Ipsum"
                 },
                 {
                     "id": 3,
                     "src": "assets/images/gallery/pic4.jpg",
-                    "alt": "pic"
+                    "alt": "pic",
+                    "caption": "Lorem Ipsum"
                 },
                 {
                     "id": 4,
                     "src": "assets/images/gallery/pic2.jpg",
-                    "alt": "pic"
+                    "alt": "pic",
+                    "caption": "Lorem Ipsum"
                 },
                 {
                     "id": 5,
                     "src": "assets/images/gallery/pic2.jpg",
-                    "alt": "pic"
+                    "alt": "pic",
+                    "caption": "Lorem Ipsum"
                 },
                 {
                     "id": 6,
                     "src": "assets/images/gallery/pic5.jpg",
-                    "alt": "pic"
+                    "alt": "pic",
+                    "caption": "Lorem Ipsum"
                 },
                 {
                     "id": 7,
                     "src": "assets/images/gallery/pic4.jpg",
-                    "alt": "pic"
+                    "alt": "pic",
+                    "caption": "Lorem Ipsum"
                 },
                 {
                     "id": 8,
                     "src": "assets/images/gallery/pic4.jpg",
-                    "alt": "pic"
+                    "alt": "pic",
+                    "caption": "Lorem Ipsum"
                 },
                 {
                     "id": 9,
                     "src": "assets/images/gallery/pic3.jpg",
-                    "alt": "pic"
+                    "alt": "pic",
+                    "caption": "Lorem Ipsum"
                 },
                 {
                     "id": 10,
                     "src": "assets/images/gallery/pic.jpg",
-                    "alt": "pic"
+                    "alt": "pic",
+                    "caption": "Lorem Ipsum"
                 }
             ]
         },

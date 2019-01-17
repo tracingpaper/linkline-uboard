@@ -1,2 +1,2 @@
 //WOW js
-new WOW().init();
+AOS.init();

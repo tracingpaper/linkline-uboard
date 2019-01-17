@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
 
-        <div class="col-md-6">
+        <div class="col-md-6" uk-parallax="opacity:0,1; y:120,0;viewport:1">
             <h4 class="subtitle py-3">Main Office</h4>
             <div class="details ml-4 mt-4">
                 <div class="detail-item address my-3">
@@ -19,13 +19,13 @@
             </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6" uk-parallax="opacity:0,1; y:120,0;viewport:1">
             <h4 class="subtitle py-3">Stay Updated</h4>
             <form action="{{forms.newsletter.action}}" method="{{forms.newsletter.method}}" class="newsletter-form ml-4 mt-4">
                 <div class="form-group">
                     <input type="email" class="form-control" placeholder="Your Email">
                 </div>
-                <button class="btn btn-primary text-uppercase font-weight-bold px-3 wow tada">
+                <button class="btn btn-primary text-uppercase font-weight-bold px-3" data-aos="zoom-in">
                     Subscribe
                 </button>
             </form>

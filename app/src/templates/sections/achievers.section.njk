@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="text-center">
+    <div class="text-center" uk-parallax="opacity:0,1; y:120,0;viewport:0.3">
         <h2 class="section-title">Achievers</h2>
         <div class="section-title-underline"></div>
     </div>
@@ -7,10 +7,10 @@
 
         {% for achiever in content.achievers.achievers %}
             <div class="col-6 col-md-4 p-3 p-md-5">
-                <img src="{{achiever.photo}}" alt="{{achiever.name}}" class="achiever-img img-fluid rounded-circle wow zoomIn">
+                <img src="{{achiever.photo}}" alt="{{achiever.name}}" class="achiever-img img-fluid rounded-circle" data-aos="zoom-in">
                 <div class="achiever-details text-center pt-2 pt-md-4">
-                    <div class="font-weight-bold achiever-name wow fadeInUp">{{achiever.name}}</div>
-                    <div class="text-muted achiever-place wow fadeInUp" data-wow-delay="200ms">{{achiever.place}}</div>
+                    <div class="font-weight-bold achiever-name" data-aos="fade-up">{{achiever.name}}</div>
+                    <div class="text-muted achiever-place" data-aos="fade-up" data-aos-delay="300">{{achiever.place}}</div>
                 </div>
             </div>
         {% endfor %}

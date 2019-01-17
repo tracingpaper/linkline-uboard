@@ -1,8 +1,8 @@
-<div class="hero flex-grow-1 d-flex">
+<div class="container hero flex-grow-1 d-flex">
 
     <div class="row my-auto text-center text-md-left">
 
-        <div class="col-md-6 order-2 order-md-1 wow fadeInLeft">
+        <div class="col-md-6 order-2 order-md-1 wow fadeInRight" uk-parallax="scale:1,0.7; opacity: 1, 0.3">
 
             <h1 class="hero-title display-4">
                 {{content.hero.title | safe}}
@@ -16,8 +16,8 @@
             </a>
         </div>
 
-        <div class="col-md-6 order-1 order-md-2">
-            <img src="assets/images/product.png" alt="Hover Board" class="hero-image img-fluid">
+        <div class="col-md-6 order-1 order-md-2" uk-parallax="x:0, 150">
+            <img src="assets/images/product.png" alt="Hover Board" class="hero-image img-fluid wow fadeInLeft">
         </div>
     </div>
 
