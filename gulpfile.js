@@ -67,3 +67,6 @@ gulp.task('watch', function () {
     gulp.watch("app/src/scripts/**/*.js", gulp.series('js-concat'));
 });
 
+//Build
+gulp.task('build', gulp.series('nunjucks', 'sass-compile', 'js-concat'));
+
