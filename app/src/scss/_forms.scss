@@ -1,0 +1,6 @@
+.form-group .form-control {
+    border: 1px solid $border-color;
+    &::placeholder {
+        color: $input-color-placeholder;
+    }
+}

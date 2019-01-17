@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="text-center">
+        <h2 class="section-title inverse">Gallery</h2>
+        <div class="section-title-underline inverse"></div>
+    </div>
+
+    <div class="gallery-container my-5">
+        {% for image in content.gallery.images %}
+            <div class="item">
+                <img src="{{image.src}}" alt="{{image.alt}}" class="gallery-image" title="{{image.id}}">
+            </div>
+        {% endfor %}
+    </div>
+</div>

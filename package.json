@@ -1,0 +1,40 @@
+{
+  "name": "linkline-uboard",
+  "version": "1.0.0",
+  "description": "LinkLine U-Board Website Front-End Framework",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp sass-compile && gulp nunjucks && gulp js-concat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracingpaper/linkline-uboard.git"
+  },
+  "keywords": [
+    "LinkLine",
+    "U",
+    "Board"
+  ],
+  "author": "Tracing Paper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tracingpaper/linkline-uboard/issues"
+  },
+  "homepage": "https://github.com/tracingpaper/linkline-uboard#readme",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-data": "latest",
+    "gulp-nunjucks-render": "latest",
+    "gulp-sass": "latest",
+    "gulp-util": "latest",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6"
+  }
+}

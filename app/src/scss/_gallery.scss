@@ -1,0 +1,92 @@
+$break-md: map-get($grid-breakpoints, md);
+$break-lg: map-get($grid-breakpoints, lg);
+$break-xl: map-get($grid-breakpoints, xl);
+
+$container-md: map-get($container-max-widths, md);
+$container-lg: map-get($container-max-widths, lg);
+$container-xl: map-get($container-max-widths, xl);
+
+$gallery-grid-gap: 12px;
+
+.gallery-container {
+    display: grid;
+    grid-gap: $gallery-grid-gap $gallery-grid-gap;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-auto-flow: row;
+
+    .item {
+        grid-auto-columns: auto;
+        cursor: pointer;
+        overflow: hidden;
+        background: $white;
+        position: relative;
+
+        &::after {
+            content: '\f065';
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            display: block;
+            font-size: 1.2rem;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) scale(0.5,0.5);
+            color: map-get($theme-colors, primary);
+            opacity: 0;
+            transition-duration: 0.3s;
+        }
+
+        &:hover {
+            img.gallery-image {
+                opacity: 0.5;
+                transform: scale(1.2, 1.2);
+            }
+
+            &::after {
+                opacity: 1;
+                transform: translate(-50%, -50%) scale(1.2, 1.2);
+            }
+        }
+
+        &:nth-child(10n + 1),  &:nth-child(10n + 7){
+            grid-column-end: span 2;
+            grid-row-end: span 2;
+        }
+
+        &:nth-child(10n + 4),  &:nth-child(10n){
+            grid-column-end: span 2;
+            grid-row-end: span 1;
+        }
+
+        img.gallery-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            opacity: 1;
+            transition-duration: 0.3s;
+        }
+    }
+
+    @media screen and (min-width: $break-md) {
+        $cell-size: ($container-md - 3*$gallery-grid-gap - 30px) / 4;
+
+        grid-template-columns: repeat(4, $cell-size);
+        grid-template-rows: repeat(4, $cell-size);
+    }
+    
+    @media screen and (min-width: $break-lg) {
+        $cell-size: ($container-lg - 5*$gallery-grid-gap - 30px) / 6;
+
+        grid-template-columns: repeat(6, $cell-size);
+        grid-template-rows: repeat(3, $cell-size);
+    }
+
+    @media screen and (min-width: $break-xl) {
+        $cell-size: ($container-xl - 5*$gallery-grid-gap - 30px) / 6;
+
+        grid-template-columns: repeat(6, $cell-size);
+        grid-template-rows: repeat(3, $cell-size);
+    }
+}

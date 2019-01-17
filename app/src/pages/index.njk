@@ -1,0 +1,29 @@
+{% extends "layouts/app.layout.njk" %}
+
+{% block content %}
+
+    <div class="container vh-100 d-flex flex-column" id="Hero">
+        {% include "partials/navbar.partial.njk" %}
+
+        {% include "sections/hero.section.njk" %}
+    </div>
+
+    <div class="container-fluid py-5" id="Company">
+
+        {% include "sections/company.section.njk" %}
+        
+    </div>
+
+    <div class="section-gallery container-fluid py-5" id="Gallery">
+        {% include "sections/gallery.section.njk" %}
+    </div>
+
+    <div class="section-achievers container-fluid py-5" id="Achievers">
+        {% include "sections/achievers.section.njk" %}
+    </div>
+
+    <div class="section-contact container-fluid py-5" id="Contact">
+        {% include "sections/contact.section.njk" %}
+    </div>
+    
+{% endblock %}

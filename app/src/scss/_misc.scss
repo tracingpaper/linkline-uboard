@@ -1,0 +1,164 @@
+.doodle-bg-1 {
+    background-image: url("../../assets//images/doodle-background.png");
+    background-size: 50%;
+    background-blend-mode: overlay;
+}
+
+.doodle-bg-2 {
+    background-image: url("../../assets//images/doodle-background-2.png");
+    background-size: 50%;
+    background-blend-mode: overlay;
+}
+
+.bg-1 {
+    background-image: url("../../assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.navbar {
+
+    height: 80px;
+
+    .navbar-nav .nav-item {
+        color: map-get($colors, gray);
+        font-weight: 500;
+        padding: 0 14px;
+
+        &.active, &:active {
+            color: map-get($theme-colors, primary)
+        }
+    }
+}
+
+// SECTION
+
+.hero {
+
+    .hero-title {
+        font-weight: 700;
+    }
+}
+
+.section-title {
+    color: map-get($theme-colors, primary);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1rem 0;
+
+    &.inverse {
+        color: $white;
+    }
+}
+
+.section-title-underline {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: map-get($theme-colors, primary);
+    position: relative;
+    border-radius: 50rem;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 10px;
+        background: map-get($theme-colors, primary);
+        position: absolute;
+        right: -24px;
+        top: 2px;
+        border-radius: 50rem;
+    }
+
+    &::before {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 10px;
+        background: map-get($theme-colors, primary);
+        position: absolute;
+        left: -24px;
+        top: 2px;
+        border-radius: 50rem;
+    }
+
+    &.inverse {
+        background: $white;
+        &::after {
+            background: $white;
+        }
+        &::before {
+            background: $white;
+        }
+    }
+}
+
+// FEATURE
+
+.feature {
+
+    text-align: center;
+    margin-top: 32px;
+
+    &.f-1 .feature-icon{
+        color: $cyan;
+    }
+
+    &.f-2 .feature-icon{
+        color: $orange;
+    }
+
+    &.f-3 .feature-icon {
+        color: $green;
+    }
+
+    .feature-icon {
+        font-size: 3.2rem;
+        margin-bottom: 24px;
+    }
+
+    h4.feature-title {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .feature-text {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: map-get($colors, gray-light);
+    }
+}
+
+// GALLERY
+
+.section-gallery {
+    background: map-get($theme-colors, primary);
+}
+
+// ACHIEVER
+
+.section-achievers {
+    .achiever-img {
+        width: 100%;
+    }
+
+    .achiever-name {
+        font-size: 1.2rem;
+    }
+}
+
+// CONTACT
+
+.section-contact {
+    background: $white;
+
+    .contact-form {
+
+    }
+}

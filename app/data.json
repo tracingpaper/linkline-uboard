@@ -1,0 +1,127 @@
+{
+    "app": {
+        "title": "U-Board"
+    },
+    "content": {
+        "hero":{
+            "title": "Get your <span class=\"text-primary\">UBoard</span> Today.",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima excepturi dolore repudiandae! Voluptatum.",
+            "action": {
+                "icon": "fa-shopping-cart",
+                "text": "Pre-Order Now",
+                "link": "#"
+            }
+        },
+        "company": {
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dignissimos veritatis? Quo illum hic error at. Quisquam accusamus repudiandae nihil maxime iusto, alias porro est!",
+            "features": [
+                {
+                    "id": 1,
+                    "title": "Fast Shipment",
+                    "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, cupiditate.",
+                    "icon": "fa-shipping-fast"
+                },
+                {
+                    "id": 2,
+                    "title": "Damage Protection",
+                    "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, cupiditate.",
+                    "icon": "fa-shield-alt"
+                },
+                {
+                    "id": 3,
+                    "title": "Eco Friendly",
+                    "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, cupiditate.",
+                    "icon": "fa-leaf"
+                }
+            ]
+        },
+        "gallery": {
+            "images": [
+                {
+                    "id": 1,
+                    "src": "../assets/images/gallery/pic5.jpg",
+                    "alt": "pic"
+                },
+                {
+                    "id": 2,
+                    "src": "../assets/images/gallery/pic3.jpg",
+                    "alt": "pic"
+                },
+                {
+                    "id": 3,
+                    "src": "../assets/images/gallery/pic4.jpg",
+                    "alt": "pic"
+                },
+                {
+                    "id": 4,
+                    "src": "../assets/images/gallery/pic2.jpg",
+                    "alt": "pic"
+                },
+                {
+                    "id": 5,
+                    "src": "../assets/images/gallery/pic2.jpg",
+                    "alt": "pic"
+                },
+                {
+                    "id": 6,
+                    "src": "../assets/images/gallery/pic5.jpg",
+                    "alt": "pic"
+                },
+                {
+                    "id": 7,
+                    "src": "../assets/images/gallery/pic4.jpg",
+                    "alt": "pic"
+                },
+                {
+                    "id": 8,
+                    "src": "../assets/images/gallery/pic4.jpg",
+                    "alt": "pic"
+                },
+                {
+                    "id": 9,
+                    "src": "../assets/images/gallery/pic3.jpg",
+                    "alt": "pic"
+                },
+                {
+                    "id": 10,
+                    "src": "../assets/images/gallery/pic.jpg",
+                    "alt": "pic"
+                }
+            ]
+        },
+        "achievers": {
+            "achievers": [
+                {
+                    "id": 1,
+                    "name": "Andrew Lane",
+                    "place": "New York",
+                    "photo": "../assets/images/faces/face1.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Kane Rogers",
+                    "place": "Mumbai",
+                    "photo": "../assets/images/faces/face9.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "John Doe",
+                    "place": "Kolkata",
+                    "photo": "../assets/images/faces/face13.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "Alice Winslet",
+                    "place": "London",
+                    "photo": "../assets/images/faces/face11.jpg"
+                },
+                {
+                    "id": 1,
+                    "name": "Bruce Wayne",
+                    "place": "Gotham City",
+                    "photo": "../assets/images/faces/face22.jpg"
+                }
+            ]
+        }
+    }
+}
