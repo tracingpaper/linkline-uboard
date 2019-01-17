@@ -7023,6 +7023,41 @@ form .form-control {
   background: #ffffff;
   border-color: #f2f2f2; }
 
+.preloader {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #F9F9F9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100; }
+  .preloader .loader {
+    margin: auto;
+    display: flex; }
+    .preloader .loader .dot {
+      width: 10px;
+      height: 10px;
+      background: #E5334E;
+      animation: enlarge 0.6s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+      animation-timing-function: ease-in-out;
+      border-radius: 50rem;
+      margin: 0 12px; }
+      .preloader .loader .dot:nth-child(1) {
+        animation-delay: 0s; }
+      .preloader .loader .dot:nth-child(2) {
+        animation-delay: 0.2s; }
+      .preloader .loader .dot:nth-child(3) {
+        animation-delay: 0.4s; }
+
+@keyframes enlarge {
+  0% {
+    transform: scale(1.4, 1.4); }
+  100% {
+    transform: scale(1, 1); } }
+
 body {
   scroll-behavior: smooth; }
   body.navbar-fixed #Hero {

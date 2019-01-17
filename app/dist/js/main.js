@@ -1,5 +1,9 @@
-//WOW js
-AOS.init();
+const bootstrap = function ($) {
+
+    //WOW js
+    AOS.init();
+    
+};
 /*(function($) {
     const $navbar = $("#navbar");
     const offset = $navbar.height();
@@ -19,3 +23,13 @@ AOS.init();
     });
 
 })($);*/
+(function ($){
+
+    $(window).on('load', function (e) {
+
+        $("#preloader").remove();
+
+        bootstrap();
+    });
+
+})(jQuery);

@@ -14,6 +14,8 @@
 </head>
 <body class="doodle-bg-2" data-spy="scroll" data-target="#navbar" data-offset=0>
 
+    {% include "partials/preloader.partial.njk" %}
+
     <div class="bg-1" id="main">
         {% block content %}{% endblock %}
     </div>
