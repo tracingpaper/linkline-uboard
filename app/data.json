@@ -39,52 +39,52 @@
             "images": [
                 {
                     "id": 1,
-                    "src": "../assets/images/gallery/pic5.jpg",
+                    "src": "assets/images/gallery/pic5.jpg",
                     "alt": "pic"
                 },
                 {
                     "id": 2,
-                    "src": "../assets/images/gallery/pic3.jpg",
+                    "src": "assets/images/gallery/pic3.jpg",
                     "alt": "pic"
                 },
                 {
                     "id": 3,
-                    "src": "../assets/images/gallery/pic4.jpg",
+                    "src": "assets/images/gallery/pic4.jpg",
                     "alt": "pic"
                 },
                 {
                     "id": 4,
-                    "src": "../assets/images/gallery/pic2.jpg",
+                    "src": "assets/images/gallery/pic2.jpg",
                     "alt": "pic"
                 },
                 {
                     "id": 5,
-                    "src": "../assets/images/gallery/pic2.jpg",
+                    "src": "assets/images/gallery/pic2.jpg",
                     "alt": "pic"
                 },
                 {
                     "id": 6,
-                    "src": "../assets/images/gallery/pic5.jpg",
+                    "src": "assets/images/gallery/pic5.jpg",
                     "alt": "pic"
                 },
                 {
                     "id": 7,
-                    "src": "../assets/images/gallery/pic4.jpg",
+                    "src": "assets/images/gallery/pic4.jpg",
                     "alt": "pic"
                 },
                 {
                     "id": 8,
-                    "src": "../assets/images/gallery/pic4.jpg",
+                    "src": "assets/images/gallery/pic4.jpg",
                     "alt": "pic"
                 },
                 {
                     "id": 9,
-                    "src": "../assets/images/gallery/pic3.jpg",
+                    "src": "assets/images/gallery/pic3.jpg",
                     "alt": "pic"
                 },
                 {
                     "id": 10,
-                    "src": "../assets/images/gallery/pic.jpg",
+                    "src": "assets/images/gallery/pic.jpg",
                     "alt": "pic"
                 }
             ]
@@ -95,31 +95,31 @@
                     "id": 1,
                     "name": "Andrew Lane",
                     "place": "New York",
-                    "photo": "../assets/images/faces/face1.jpg"
+                    "photo": "./assets/images/faces/face1.jpg"
                 },
                 {
                     "id": 2,
                     "name": "Kane Rogers",
                     "place": "Mumbai",
-                    "photo": "../assets/images/faces/face9.jpg"
+                    "photo": "./assets/images/faces/face9.jpg"
                 },
                 {
                     "id": 3,
                     "name": "John Doe",
                     "place": "Kolkata",
-                    "photo": "../assets/images/faces/face13.jpg"
+                    "photo": "./assets/images/faces/face13.jpg"
                 },
                 {
                     "id": 4,
                     "name": "Alice Winslet",
                     "place": "London",
-                    "photo": "../assets/images/faces/face11.jpg"
+                    "photo": "./assets/images/faces/face11.jpg"
                 },
                 {
                     "id": 1,
                     "name": "Bruce Wayne",
                     "place": "Gotham City",
-                    "photo": "../assets/images/faces/face22.jpg"
+                    "photo": "./assets/images/faces/face22.jpg"
                 }
             ]
         }
