@@ -16,7 +16,7 @@
     },
     "content": {
         "hero":{
-            "title": "Get your <span class=\"text-primary\">UBoard</span> Today.",
+            "title": "Get your <span class=\"text-primary\">HoverBoard</span> Today.",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima excepturi dolore repudiandae! Voluptatum.",
             "action": {
                 "icon": "fa-shopping-cart",
