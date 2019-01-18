@@ -6960,13 +6960,24 @@ a, .btn {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, auto);
   grid-auto-flow: row; }
-  .gallery-container .item {
+  .gallery-container .gallery-item {
     grid-auto-columns: auto;
     cursor: pointer;
     overflow: hidden;
     background: #ffffff;
-    position: relative; }
-    .gallery-container .item::after {
+    position: relative;
+    animation: fadeInDown 0.6s ease-in-out; }
+    .gallery-container .gallery-item:nth-child(4n + 0) {
+      animation-duration: 600ms; }
+    .gallery-container .gallery-item:nth-child(4n + 1) {
+      animation-duration: 700ms; }
+    .gallery-container .gallery-item:nth-child(4n + 2) {
+      animation-duration: 800ms; }
+    .gallery-container .gallery-item:nth-child(4n + 3) {
+      animation-duration: 900ms; }
+    .gallery-container .gallery-item.hidden {
+      display: none; }
+    .gallery-container .gallery-item::after {
       content: '\f065';
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
@@ -6979,19 +6990,19 @@ a, .btn {
       color: #E5334E;
       opacity: 0;
       transition-duration: 0.3s; }
-    .gallery-container .item:hover img.gallery-image {
+    .gallery-container .gallery-item:hover img.gallery-image {
       opacity: 0.5;
       transform: scale(1.2, 1.2); }
-    .gallery-container .item:hover::after {
+    .gallery-container .gallery-item:hover::after {
       opacity: 1;
       transform: translate(-50%, -50%) scale(1.2, 1.2); }
-    .gallery-container .item:nth-child(10n + 1), .gallery-container .item:nth-child(10n + 7) {
+    .gallery-container .gallery-item:nth-child(10n + 1), .gallery-container .gallery-item:nth-child(10n + 7) {
       grid-column-end: span 2;
       grid-row-end: span 2; }
-    .gallery-container .item:nth-child(10n + 4), .gallery-container .item:nth-child(10n) {
+    .gallery-container .gallery-item:nth-child(10n + 4), .gallery-container .gallery-item:nth-child(10n) {
       grid-column-end: span 2;
       grid-row-end: span 1; }
-    .gallery-container .item img.gallery-image {
+    .gallery-container .gallery-item img.gallery-image {
       width: 100%;
       height: 100%;
       object-fit: cover;

@@ -15,12 +15,23 @@ $gallery-grid-gap: 12px;
     grid-template-rows: repeat(5, auto);
     grid-auto-flow: row;
 
-    .item {
+    .gallery-item {
         grid-auto-columns: auto;
         cursor: pointer;
         overflow: hidden;
         background: $white;
         position: relative;
+        animation: fadeInDown 0.6s ease-in-out;
+
+        @for $i from 0 to 4 {
+            &:nth-child(4n + #{$i}) {
+                animation-duration: #{600 + $i*100}ms;
+            }
+        }
+
+        &.hidden {
+            display: none;
+        }
 
         &::after {
             content: '\f065';
@@ -90,3 +101,4 @@ $gallery-grid-gap: 12px;
         grid-template-rows: repeat(3, $cell-size);
     }
 }
+
