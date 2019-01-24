@@ -1,7 +1,7 @@
 (function ($){
 
     var MAX_ITEMS = 10;
-    const MORE_ITEMS = 5;
+    const MORE_ITEMS = 10;
 
     const $items = $('.gallery-item')
 
