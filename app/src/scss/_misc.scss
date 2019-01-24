@@ -280,13 +280,23 @@ body {
     .product-nav {
         
         li {
+            a {
+                border-radius: 4px;
+                transform: scale(0.9, 0.9);
+            }
             @media screen and (min-width: map-get($grid-breakpoints, md)) {
+                
                 a {
                     width: 100%;
                     height: 200px;
                     overflow: hidden;
-                    border-radius: 4px;
-                    transform: scale(0.8, 0.8)
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
                 }
 
             }
@@ -294,7 +304,11 @@ body {
             &.uk-active {
                 a {
                     transform: scale(1, 1);
-                    box-shadow: 0px 0px 0px 5px transparentize(theme-color(primary), 0.5);
+                    // box-shadow: 0px 0px 0px 5px transparentize(theme-color(primary), 0.5);
+                }
+
+                .uk-overlay {
+                    opacity: 0; 
                 }
             }
         }

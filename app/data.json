@@ -49,19 +49,19 @@
                 {
                     "id": 1,
                     "title": "Fast Shipment",
-                    "text": "No longer waiting for your product. We provide fast delivery service with in given period of time.",
+                    "text": "Six months damage free warranty.",
                     "icon": "fa-shipping-fast"
                 },
                 {
                     "id": 2,
                     "title": "Damage Protection",
-                    "text": "No noise, no air pollution. Just charge once and use limitless. Save petroleum as well.",
+                    "text": "",
                     "icon": "fa-shield-alt"
                 },
                 {
                     "id": 3,
                     "title": "Eco Friendly",
-                    "text": "Six months damage free warranty.",
+                    "text": "No noise, no air pollution. Just charge once and use limitless. Save petroleum as well.",
                     "icon": "fa-leaf"
                 }
             ]
@@ -70,11 +70,65 @@
             "products": [
                 {
                     "name": "Hydra 10 inch hoverboard",
-                    "image": "assets/images/product/product1.jpg",
+                    "image": "assets/images/product/product_10inch.jpg",
                     "details": {
                         "Control Board": "Third-generation super-intelligent control panel",
                         "Battery": "36 v 5.8Ah Rechargeable lithium battery",
                         "Tyre": "10 inch solid tyre",
+                        "Color": "Blue",
+                        "Warranty": "6 month battery & motor",
+                        "Range Per Charge": "15-20kms   (according to the ground conditions, load, battery)",
+                        "Charging time": "1-2hours",
+                        "Maximum speed": "15km / h",
+                        "max load capacity": "120kgs",
+                        "minimum load": "25kgs",
+                        "Maximum range ": "20 Km",
+                        "Net Weight": "13.5 Kg",
+                        "Remote": "Yes",
+                        "Bluetooth": "Yes",
+                        "Redius of turning circle": "0m",
+                        "Chargine requirements": "100 - 240v 50 or 60 Hz",
+                        "Lenth, width": "52 cm X 24.5 cm",
+                        "Ride Height": "14.4 cm no load",
+                        "Delivery Time": "3 to 7 Business Day ( Depends on Location)"
+                    }
+                },
+                {
+                    "name": "Lorem 6.5 inch Hoverboard",
+                    "image": "assets/images/product/product_6.5inch.jpg",
+                    "details": {
+                        "Control Board": "Third-generation super-intelligent control panel",
+                        "Battery": "original Samsung 36V 4.4AH",
+                        "Motor": "350w*2  brushless motor, quality excellent market reputation",
+                        "Tyre": "6.5 inch tubeless tyre",
+                        "Color": "Red Power",
+                        "Warranty": "6 month battery & motor",
+                        "Range Per Charge": "15-20kms   (according to the ground conditions, load, battery)",
+                        "Charging time": "1-2hours",
+                        "Maximum speed": "10-15km / h",
+                        "max load capacity": "120kgs",
+                        "minimum load": "15kgs",
+                        "Remote": "Yes",
+                        "Bag": "Yes",
+                        "Bluetooth": "Yes",
+                        "Net Weight": "10kg",
+                        "Gradeability": "17 degrees",
+                        "Ground clearance": "46mm",
+                        "Dimensions": "H185*L595*W185mm",
+                        "Package Size": "H250*L665*W260mm",
+                        "Pedal height": "110mm",
+                        "Chassis height": "30mm",
+                        "Material": "Aluminium+ABS",
+                        "Delivery Time": "3 to 7 Business Day ( Depends on Location)"
+                    }
+                },
+                {
+                    "name": "Ipsum 8 inch hoverboard",
+                    "image": "assets/images/product/product_8inch.jpg",
+                    "details": {
+                        "Control Board": "Third-generation super-intelligent control panel",
+                        "Battery": "36 v 5.8Ah Rechargeable lithium battery",
+                        "Tyre": "8 inch solid tyre",
                         "Color": "Blue",
                         "Warranty": "6 month battery & motor",
                         "Range Per Charge": "15-20kms   (according to the ground conditions, load, battery)",
