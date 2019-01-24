@@ -23,7 +23,9 @@
 const bootstrap = function ($) {
 
     //WOW js
-    AOS.init();
+    AOS.init({
+        disable: 'mobile'
+    });
     
 };
 /*(function($) {

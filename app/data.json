@@ -16,8 +16,8 @@
     },
     "content": {
         "hero":{
-            "title": "Get your <span class=\"text-primary\">TripBoard</span> Today.",
-            "text": "With advanced battery technology, extended mileage and certified safety technology",
+            "title": "Get your <span class=\"text-primary\">HoverBoard</span> Today.",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima excepturi dolore repudiandae! Voluptatum.",
             "action": {
                 "icon": "fa-shopping-cart",
                 "text": "Pre-Order Now",
@@ -49,13 +49,13 @@
                 {
                     "id": 1,
                     "title": "Fast Shipment",
-                    "text": "Six months damage free warranty.",
+                    "text": "No longer waiting for your product. We provide fast delivery service with in given period of time.",
                     "icon": "fa-shipping-fast"
                 },
                 {
                     "id": 2,
                     "title": "Damage Protection",
-                    "text": "",
+                    "text": "Six months damage free warranty.",
                     "icon": "fa-shield-alt"
                 },
                 {
@@ -70,7 +70,7 @@
             "products": [
                 {
                     "name": "Hydra 10 inch hoverboard",
-                    "image": "assets/images/product/product_10inch.jpg",
+                    "image": "assets/images/product/product_10.jpg",
                     "details": {
                         "Control Board": "Third-generation super-intelligent control panel",
                         "Battery": "36 v 5.8Ah Rechargeable lithium battery",
@@ -95,7 +95,7 @@
                 },
                 {
                     "name": "Lorem 6.5 inch Hoverboard",
-                    "image": "assets/images/product/product_6.5inch.jpg",
+                    "image": "assets/images/product/product_6.5.jpg",
                     "details": {
                         "Control Board": "Third-generation super-intelligent control panel",
                         "Battery": "original Samsung 36V 4.4AH",
@@ -124,7 +124,7 @@
                 },
                 {
                     "name": "Ipsum 8 inch hoverboard",
-                    "image": "assets/images/product/product_8inch.jpg",
+                    "image": "assets/images/product/product_8.jpg",
                     "details": {
                         "Control Board": "Third-generation super-intelligent control panel",
                         "Battery": "36 v 5.8Ah Rechargeable lithium battery",
