@@ -1,9 +1,9 @@
 <div class="container-fluid" data-aos="fade-up">
     <div class="row">
-        <div class="product-nav-container col-md-4 mb-2 mb-md-0 bg-dark py-5 pl-5 pr-0">
+        <div class="product-nav-container col-md-4 mb-2 mb-md-0 bg-dark">
             <ul class="uk-thumbnav product-nav" uk-switcher="connect:#product-description; animation: uk-animation-fade">
                 {% for product in content.product.products %}
-                    <li class="uk-width-1-3 uk-width-1-1@m p-4 {% if loop.index == 0 %} pt-5 {% endif %}">
+                    <li class="uk-width-1-3 uk-width-1-1@m p-2 p-md-4">
                         <a href="#" class="uk-inline">
                             <img src="{{product.image}}" >
                             <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-padding-small text-center">
