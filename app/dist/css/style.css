@@ -7245,7 +7245,7 @@ body {
 #Product {
   background: #fff; }
   #Product .product-nav-container {
-    box-shadow: inset -4px 0px 6px #000; }
+    box-shadow: inset -4px 0px 4px #000; }
   #Product .product-table td {
     padding: 5px 12px; }
   #Product .product-nav li {
@@ -7288,3 +7288,6 @@ body {
         transform: scale(1, 1); }
       #Product .product-nav li.uk-active .uk-overlay {
         opacity: 0; }
+
+#Quotes {
+  background: #E5334E; }

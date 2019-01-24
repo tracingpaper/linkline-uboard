@@ -1,0 +1,9 @@
+<div class="container uk-light">
+    <div uk-slider="autoplay:true">
+        <ul class="uk-slider-items uk-child-width-1-1 text-center">
+                {% for quote in content.quotes.quotes %}
+                    <li class="lead"><em>"{{quote | safe}}"</em></li>
+                {%- endfor %}
+        </ul>
+    </div>
+</div>

@@ -276,7 +276,7 @@ body {
 #Product {
 
     .product-nav-container {
-        box-shadow: inset -4px 0px 6px #000;
+        box-shadow: inset -4px 0px 4px #000;
     }
 
     background: #fff;
@@ -358,4 +358,9 @@ body {
             }
         }
     }
+}
+
+//QUOTES
+#Quotes {
+    background: theme-color(primary);
 }
