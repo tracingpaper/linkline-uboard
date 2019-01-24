@@ -16,8 +16,8 @@
     },
     "content": {
         "hero":{
-            "title": "Get your <span class=\"text-primary\">HoverBoard</span> Today.",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima excepturi dolore repudiandae! Voluptatum.",
+            "title": "Get your <span class=\"text-primary\">TripBoard</span> Today.",
+            "text": "With advanced battery technology, extended mileage and certified safety technology",
             "action": {
                 "icon": "fa-shopping-cart",
                 "text": "Pre-Order Now",
