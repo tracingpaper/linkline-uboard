@@ -17,7 +17,7 @@
     "content": {
         "hero":{
             "title": "Get your <span class=\"text-primary\">HoverBoard</span> Today.",
-            "text": "With advanced battery technology, extended mileage and certified safety technology <br/> Commute. Play. Chill.",
+            "text": "With advanced battery technology, extended mileage and certified safety technology <b>Commute. Play. Chill.</b>",
             "action": {
                 "icon": "fa-shopping-cart",
                 "text": "Pre-Order Now",
@@ -44,7 +44,7 @@
             ]
         },
         "company": {
-            "text": "LinkLine also owns TripBikes, Bangalore's best bike renter.",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsam tenetur, beatae voluptate cupiditate odit.",
             "features": [
                 {
                     "id": 1,
