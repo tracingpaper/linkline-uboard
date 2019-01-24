@@ -1,0 +1,43 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 mb-2 mb-md-0 p-5 bg-dark">
+            <ul class="uk-thumbnav product-nav" uk-switcher="connect:#product-description">
+                {% for product in content.product.products %}
+                    <li class="uk-width-1-3 uk-width-1-1@m">
+                        <a href="#"><img src="{{product.image}}" uk-cover></a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="col-md-8 p-5">
+            <ul class="uk-switcher" id="product-description">
+                {% for product in content.product.products %}
+                    <li>
+                        <div class="card product-desc-card border-0">
+                            <div class="card-body">
+                                <h5 class="card-title">{{product.name}}</h4>
+                                <h6 class="card-subtitle text-muted">Parameters</h5>
+                                <hr>
+                                <div class="uk-overflow-auto">
+                                    <table class="uk-table uk-table-small">
+
+                                        <tbody>
+                                            {% for prop, value in product.details %}
+                                                <tr>
+                                                    <td class="font-weight-medium">{{prop}}</td>
+                                                    <td>{{value}}</td>
+                                                </tr>
+                                            {% endfor %}
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

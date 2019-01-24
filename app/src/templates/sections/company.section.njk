@@ -7,13 +7,25 @@
     <p class="lead company-text font-weight-medium text-muted text-center p-4" uk-parallax="opacity:0,1; y:120,0;viewport:0.3">
         {{content.company.text}}
     </p>
+
+    <div class="row align-items-center border-top border-bottom">
+
+        <div class="col-md-3">
+            <img src="assets/images/linkline.png" alt="LinkLine" class="img-fluid">
+        </div>
+        <div class="col-md-8 text-">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptate deleniti sed animi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus praesentium omnis cum repellat animi non at similique libero itaque cumque.</p>
+        </div>
+        
+    </div>
 </div>
 
-<div class="row">
+<div class="row align-items-stretch">
 
     {% for feature in content.company.features %}
         <div class="feature f-{{feature.id}} col-md-4" data-aos="fade-up" data-aos-delay="{{(feature.id - 1)*100}}">
-            <div class="card border-light" >
+            <div class="card border-light h-100" >
                 <div class="card-body">
                     <div class="feature-icon"><i class="fa {{feature.icon}}"></i></div>
                     <h4 class="feature-title">{{feature.title}}</h4>

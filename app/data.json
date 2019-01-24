@@ -49,20 +49,49 @@
                 {
                     "id": 1,
                     "title": "Fast Shipment",
-                    "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, cupiditate.",
+                    "text": "No longer waiting for your product. We provide fast delivery service with in given period of time.",
                     "icon": "fa-shipping-fast"
                 },
                 {
                     "id": 2,
                     "title": "Damage Protection",
-                    "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, cupiditate.",
+                    "text": "No noise, no air pollution. Just charge once and use limitless. Save petroleum as well.",
                     "icon": "fa-shield-alt"
                 },
                 {
                     "id": 3,
                     "title": "Eco Friendly",
-                    "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, cupiditate.",
+                    "text": "Six months damage free warranty.",
                     "icon": "fa-leaf"
+                }
+            ]
+        },
+        "product": {
+            "products": [
+                {
+                    "name": "Hydra 10 inch hoverboard",
+                    "image": "assets/images/product/product1.jpg",
+                    "details": {
+                        "Control Board": "Third-generation super-intelligent control panel",
+                        "Battery": "36 v 5.8Ah Rechargeable lithium battery",
+                        "Tyre": "10 inch solid tyre",
+                        "Color": "Blue",
+                        "Warranty": "6 month battery & motor",
+                        "Range Per Charge": "15-20kms   (according to the ground conditions, load, battery)",
+                        "Charging time": "1-2hours",
+                        "Maximum speed": "15km / h",
+                        "max load capacity": "120kgs",
+                        "minimum load": "25kgs",
+                        "Maximum range ": "20 Km",
+                        "Net Weight": "13.5 Kg",
+                        "Remote": "Yes",
+                        "Bluetooth": "Yes",
+                        "Redius of turning circle": "0m",
+                        "Chargine requirements": "100 - 240v 50 or 60 Hz",
+                        "Lenth, width": "52 cm X 24.5 cm",
+                        "Ride Height": "14.4 cm no load",
+                        "Delivery Time": "3 to 7 Business Day ( Depends on Location)"
+                    }
                 }
             ]
         },
