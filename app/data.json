@@ -159,63 +159,45 @@
             "images": [
                 {
                     "id": 1,
-                    "src": "assets/images/gallery/pic5.jpg",
+                    "src": "assets/images/gallery/gallery (1).jpg",
                     "alt": "pic",
-                    "caption": "Lorem Ipsum"
+                    "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 2,
-                    "src": "assets/images/gallery/pic3.jpg",
+                    "src": "assets/images/gallery/gallery (2).jpg",
                     "alt": "pic",
-                    "caption": "Lorem Ipsum"
+                    "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 3,
-                    "src": "assets/images/gallery/pic4.jpg",
+                    "src": "assets/images/gallery/gallery (3).jpg",
                     "alt": "pic",
-                    "caption": "Lorem Ipsum"
+                    "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 4,
-                    "src": "assets/images/gallery/pic2.jpg",
+                    "src": "assets/images/gallery/gallery (4).jpg",
                     "alt": "pic",
-                    "caption": "Lorem Ipsum"
+                    "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 5,
-                    "src": "assets/images/gallery/wall1.png",
+                    "src": "assets/images/gallery/gallery (5).jpg",
                     "alt": "pic",
-                    "caption": "Lorem Ipsum"
+                    "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 6,
-                    "src": "assets/images/gallery/pic5.jpg",
+                    "src": "assets/images/gallery/gallery (6).jpg",
                     "alt": "pic",
-                    "caption": "Lorem Ipsum"
+                    "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 7,
-                    "src": "assets/images/gallery/pic4.jpg",
+                    "src": "assets/images/gallery/gallery (7).jpg",
                     "alt": "pic",
-                    "caption": "Lorem Ipsum"
-                },
-                {
-                    "id": 8,
-                    "src": "assets/images/gallery/wall2.png",
-                    "alt": "pic",
-                    "caption": "Lorem Ipsum"
-                },
-                {
-                    "id": 9,
-                    "src": "assets/images/gallery/pic3.jpg",
-                    "alt": "pic",
-                    "caption": "Lorem Ipsum"
-                },
-                {
-                    "id": 10,
-                    "src": "assets/images/gallery/wall3.png",
-                    "alt": "pic",
-                    "caption": "Lorem Ipsum"
+                    "caption": "LinkLine Hoverboard"
                 }
             ]
         },

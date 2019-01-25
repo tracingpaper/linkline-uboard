@@ -5,14 +5,10 @@
     </div>
 
     <div class="gallery-container my-5" uk-lightbox="animation: fade">
+    {# {% if image.id%4 == 0 %}fade-up{% elif image.id%4 == 1  %}fade-left{% elif image.id%4 == 2  %}fade-down{% else %}fade-right{% endif %} #}
         {% for image in content.gallery.images %}
-            <a href="{{image.src}}" data-caption="{{image.caption}}" class="gallery-item" data-aos="{% if image.id%4 == 0 %}fade-up{% elif image.id%4 == 1  %}fade-left{% elif image.id%4 == 2  %}fade-down{% else %}fade-right{% endif %}" data-aos-delay="{{image.id*20}}">
-                <img src="{{image.src}}" alt="{{image.alt}}" class="gallery-image" title="{{image.caption}}">
-            </a>
-        {% endfor %}
-        {% for image in content.gallery.images %}
-            <a href="{{image.src}}" data-caption="{{image.caption}}" class="gallery-item" data-aos="{% if image.id%4 == 0 %}fade-up{% elif image.id%4 == 1  %}fade-left{% elif image.id%4 == 2  %}fade-down{% else %}fade-right{% endif %}" data-aos-delay="{{image.id*20}}">
-                <img src="{{image.src}}" alt="{{image.alt}}" class="gallery-image" title="{{image.caption}}">
+            <a href="{{image.src}}" data-caption="{{image.caption}}" class="gallery-item">
+                <img data-src="{{image.src}}" alt="{{image.alt}}" class="gallery-image" title="{{image.caption}}" uk-img>
             </a>
         {% endfor %}
     </div>
