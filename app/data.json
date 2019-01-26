@@ -159,67 +159,121 @@
             "images": [
                 {
                     "id": 1,
-                    "src": "assets/images/gallery/gallery (1).jpg",
+                    "src": "assets/images/gallery/gall (1).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 2,
-                    "src": "assets/images/gallery/gallery (2).jpg",
+                    "src": "assets/images/gallery/gall (2).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 3,
-                    "src": "assets/images/gallery/gallery (3).jpg",
+                    "src": "assets/images/gallery/gall (3).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 4,
-                    "src": "assets/images/gallery/gallery (4).jpg",
+                    "src": "assets/images/gallery/gall (4).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 5,
-                    "src": "assets/images/gallery/gallery (5).jpg",
+                    "src": "assets/images/gallery/gall (5).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 6,
-                    "src": "assets/images/gallery/gallery (6).jpg",
+                    "src": "assets/images/gallery/gall (6).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 7,
-                    "src": "assets/images/gallery/gallery (7).jpg",
+                    "src": "assets/images/gallery/gall (7).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 8,
-                    "src": "assets/images/gallery/gallery (8).jpg",
+                    "src": "assets/images/gallery/gall (8).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 9,
-                    "src": "assets/images/gallery/gallery (9).jpg",
+                    "src": "assets/images/gallery/gall (9).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 10,
-                    "src": "assets/images/gallery/gallery (10).jpg",
+                    "src": "assets/images/gallery/gall (10).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
                 },
                 {
                     "id": 11,
-                    "src": "assets/images/gallery/gallery (11).jpg",
+                    "src": "assets/images/gallery/gall (11).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 12,
+                    "src": "assets/images/gallery/gall (12).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 13,
+                    "src": "assets/images/gallery/gall (13).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 14,
+                    "src": "assets/images/gallery/gall (14).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 15,
+                    "src": "assets/images/gallery/gall (15).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 16,
+                    "src": "assets/images/gallery/gall (16).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 17,
+                    "src": "assets/images/gallery/gall (17).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 18,
+                    "src": "assets/images/gallery/gall (18).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 19,
+                    "src": "assets/images/gallery/gall (19).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 20,
+                    "src": "assets/images/gallery/gall (20).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
                 }
