@@ -7075,7 +7075,7 @@ form .form-control {
 body {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  min-width: 100%; }
+  width: 100%; }
   body.navbar-fixed #Hero {
     box-sizing: border-box;
     padding-top: 80px; }
@@ -7100,10 +7100,23 @@ body {
   #Hero {
     height: 100vh; } }
 
+@media screen and (max-width: 768px) {
+  #Hero h1.hero-title {
+    font-size: 2.5rem; } }
+
 .navbar {
   height: 80px;
   transition-duration: 0.3s;
   z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .navbar {
+      display: block; }
+      .navbar .navbar-collapse {
+        background: #fff;
+        border-radius: 0.25rem;
+        margin-top: 2rem; }
+        .navbar .navbar-collapse .navbar-nav .nav-item {
+          padding: 1rem; } }
   .navbar.dropTop {
     animation: fadeInDown 0.3s; }
   .navbar.hidden {
@@ -7310,6 +7323,21 @@ body {
             box-shadow: 0.25rem -0.25rem 0px 0.25rem #fff; }
           #Product .product-nav li.uk-active .uk-overlay {
             opacity: 0; } }
+  @media screen and (max-width: 768px) {
+    #Product .product-desc-card .card-title {
+      font-size: 1rem; }
+    #Product .product-desc-card .card-subtitle {
+      font-size: 0.9rem; }
+    #Product .product-desc-card .card-body {
+      padding: 2px 8px; }
+    #Product .product-nav-container {
+      padding-top: 8px; }
+    #Product .product-table {
+      font-size: 0.7rem; }
+      #Product .product-table td {
+        padding: 2px 4px; }
+        #Product .product-table td:first-child {
+          width: 30%; } }
 
 #Quotes {
   background: #E5334E; }

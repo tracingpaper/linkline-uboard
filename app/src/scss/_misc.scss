@@ -1,7 +1,7 @@
 body {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    min-width: 100%;
+    width: 100%;
 
     &.navbar-fixed {
         
@@ -35,6 +35,13 @@ body {
     @media screen and (min-width: map-get($grid-breakpoints, md)) {
         height: 100vh;
     }
+
+    @media screen and (max-width: map-get($grid-breakpoints, md)) {
+
+        h1.hero-title {
+            font-size: 2.5rem;
+        }
+    }
 }
 
 .navbar {
@@ -42,6 +49,20 @@ body {
     height: 80px;
     transition-duration: 0.3s;
     z-index:1;
+
+    @media screen and (max-width: map-get($grid-breakpoints, md)) {
+        display: block;
+
+        .navbar-collapse {
+            background: #fff;
+            border-radius: $border-radius;
+            margin-top: 2rem;
+
+            .navbar-nav .nav-item {
+                padding: 1rem;
+            }
+        }
+    }
 
     &.dropTop {
         animation: fadeInDown 0.3s;
@@ -275,6 +296,8 @@ body {
 
 #Product {
 
+    background: #fff;
+
     .product-nav-container {
         padding: 3rem 3rem 0 3rem;
         box-shadow: inset 0px -4px 4px #000;
@@ -285,8 +308,6 @@ body {
             box-shadow: inset -4px 0px 4px #000;
         }
     }
-
-    background: #fff;
 
     .product-table {
         td {
@@ -391,6 +412,32 @@ body {
 
             }
 
+        }
+    }
+
+    @media screen and (max-width: map-get($grid-breakpoints, md)) {
+        .product-desc-card {
+            .card-title { font-size: 1rem; }
+            .card-subtitle { font-size: 0.9rem; }
+            .card-body {
+                padding: 2px 8px;
+            }
+        }
+
+        .product-nav-container {
+            padding-top: 8px;
+        }
+
+        .product-table {
+            font-size: 0.7rem;
+
+            td {
+                padding: 2px 4px;
+
+                &:first-child {
+                    width: 30%;
+                }
+            }
         }
     }
 }
