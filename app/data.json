@@ -198,6 +198,30 @@
                     "src": "assets/images/gallery/gallery (7).jpg",
                     "alt": "pic",
                     "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 8,
+                    "src": "assets/images/gallery/gallery (8).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 9,
+                    "src": "assets/images/gallery/gallery (9).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 10,
+                    "src": "assets/images/gallery/gallery (10).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
+                },
+                {
+                    "id": 11,
+                    "src": "assets/images/gallery/gallery (11).jpg",
+                    "alt": "pic",
+                    "caption": "LinkLine Hoverboard"
                 }
             ]
         },
