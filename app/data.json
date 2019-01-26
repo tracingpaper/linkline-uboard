@@ -1,6 +1,6 @@
 {
     "app": {
-        "title": "Hover Board",
+        "title": "Trip Board",
         "details": {
             "company": "LinkLine",
             "companyUrl": "#",
@@ -16,7 +16,7 @@
     },
     "content": {
         "hero":{
-            "title": "Get your <span class=\"text-primary\">HoverBoard</span> Today.",
+            "title": "Get your <span class=\"text-primary\">TripBoard</span> Today.",
             "text": "With advanced battery technology, extended mileage and certified safety technology <b>Commute. Play. Chill.</b>",
             "action": {
                 "icon": "fa-shopping-cart",
@@ -104,7 +104,7 @@
                     }
                 },
                 {
-                    "name": "Hydra 8 inch hoverboard",
+                    "name": "Hydra 8 inch Hoverboard",
                     "image": "assets/images/product/product_8.jpg",
                     "details": {
                         "Control Board": "Third-generation super-intelligent control panel",
@@ -129,7 +129,7 @@
                     }
                 },
                 {
-                    "name": "Hydra 10 inch hoverboard",
+                    "name": "Hydra 10 inch Hoverboard",
                     "image": "assets/images/product/product_10.jpg",
                     "details": {
                         "Control Board": "Third-generation super-intelligent control panel",
