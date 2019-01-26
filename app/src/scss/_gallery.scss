@@ -85,6 +85,7 @@ $gallery-grid-gap: 12px;
 
         grid-template-columns: repeat(4, $cell-size);
         grid-template-rows: repeat(4, $cell-size);
+        grid-auto-rows: $cell-size;
     }
     
     @media screen and (min-width: $break-lg) {
@@ -92,6 +93,7 @@ $gallery-grid-gap: 12px;
 
         grid-template-columns: repeat(6, $cell-size);
         grid-template-rows: repeat(3, $cell-size);
+        grid-auto-rows: $cell-size;
     }
 
     @media screen and (min-width: $break-xl) {
@@ -99,6 +101,7 @@ $gallery-grid-gap: 12px;
 
         grid-template-columns: repeat(6, $cell-size);
         grid-template-rows: repeat(3, $cell-size);
+        grid-auto-rows: $cell-size;
     }
 }
 

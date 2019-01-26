@@ -75,7 +75,7 @@
         "product": {
             "products": [
                 {
-                    "name": "Lorem 6.5 inch Hoverboard",
+                    "name": "Standard 6.5 inch Hoverboard",
                     "image": "assets/images/product/product_6.5.jpg",
                     "details": {
                         "Control Board": "Third-generation super-intelligent control panel",
@@ -104,7 +104,7 @@
                     }
                 },
                 {
-                    "name": "Ipsum 8 inch hoverboard",
+                    "name": "Hydra 8 inch hoverboard",
                     "image": "assets/images/product/product_8.jpg",
                     "details": {
                         "Control Board": "Third-generation super-intelligent control panel",
