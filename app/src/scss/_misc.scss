@@ -54,12 +54,13 @@ body {
         display: block;
 
         .navbar-collapse {
-            background: #fff;
+            background: theme-color(primary);
             border-radius: $border-radius;
             margin-top: 2rem;
 
             .navbar-nav .nav-item {
                 padding: 1rem;
+                color: #fff;
             }
         }
     }

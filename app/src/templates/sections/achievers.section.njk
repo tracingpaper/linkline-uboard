@@ -4,13 +4,12 @@
         <div class="section-title-underline"></div>
     </div>
     <div class="row justify-content-center">
-
         {% for achiever in content.achievers.achievers %}
             <div class="col-6 col-md-4 p-3 p-md-5">
-                <img src="{{achiever.photo}}" alt="{{achiever.name}}" class="achiever-img img-fluid rounded-circle" data-aos="zoom-in">
+                <img src="assets/images/faces/avatar.png" alt="John Doe" class="achiever-img img-fluid rounded-circle" data-aos="zoom-in">
                 <div class="achiever-details text-center pt-2 pt-md-4">
-                    <div class="font-weight-bold achiever-name" data-aos="fade-up">{{achiever.name}}</div>
-                    <div class="text-muted achiever-place" data-aos="fade-up" data-aos-delay="300">{{achiever.place}}</div>
+                    <div class="font-weight-bold achiever-name" data-aos="fade-up">John Doe</div>
+                    <div class="text-muted achiever-place" data-aos="fade-up" data-aos-delay="300">New York</div>
                 </div>
             </div>
         {% endfor %}

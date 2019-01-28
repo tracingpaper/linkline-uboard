@@ -7112,11 +7112,12 @@ body {
     .navbar {
       display: block; }
       .navbar .navbar-collapse {
-        background: #fff;
+        background: #E5334E;
         border-radius: 0.25rem;
         margin-top: 2rem; }
         .navbar .navbar-collapse .navbar-nav .nav-item {
-          padding: 1rem; } }
+          padding: 1rem;
+          color: #fff; } }
   .navbar.dropTop {
     animation: fadeInDown 0.3s; }
   .navbar.hidden {
