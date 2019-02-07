@@ -1,6 +1,7 @@
 {
     "app": {
         "title": "Trip Board",
+        "logo": "assets/images/logo.png",
         "details": {
             "company": "LinkLine",
             "companyUrl": "#",
